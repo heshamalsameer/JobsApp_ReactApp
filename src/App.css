@@ -1,0 +1,43 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/src/image/73a4581886ea03ae741628e5719373af.jpeg);
+    background-size:cover;
+    background-position: 100%;
+    background-repeat: repeat;
+    background-color: #734416;
+    height: 100vh;
+}
+@keyframes movejob {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+}
+@keyframes movelogup {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+}
+.jobitem {
+    animation: movejob 1s alternate;
+}
+.logup {
+    animation: movelogup 1s alternate;
+}
+.login {
+    animation: movelogup 1s alternate;
+}
